@@ -19,7 +19,6 @@ def moon_position(date):
     L_moon = (218.316 + 13.176396 * n) % 360
     M_moon = (134.963 + 13.064993 * n) % 360
     D = (297.850 + 12.190749 * n) % 360
-    F = (93.272 + 13.229350 * n) % 360
 
     lambda_moon = (L_moon + 6.289 * math.sin(math.radians(M_moon)) -
                    3.784 * math.sin(math.radians(2 * D)) +
