@@ -22,3 +22,9 @@ This repository contains the code and documentation for the paper titled "Specul
 ```
     pip install -r code/requirements.txt
 ```
+
+## Prediction
+you can adjust price and month to play with the analysis
+but bellow is the calculated based on the data that I did
+
+![img.png](img.png)
